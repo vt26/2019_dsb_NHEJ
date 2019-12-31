@@ -180,7 +180,7 @@ for (c in 1:16){
 
 all_chroms_corr.l = list()
 
-for (c in 15:16){
+for (c in 1:16){
   
   genes_on_chr.df = yeast_gene.df2[which(yeast_gene.df2$chr==c),]
   

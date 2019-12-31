@@ -363,8 +363,8 @@ dev.off()
 
 #make legend
 file_name = paste("heatmap_legend.png", sep="")
-png(file_name, width = 3, height = 12, units = "in", res = 300)
-par(mar=c(1,1,1,4))
+png(file_name, width = 2, height = 7, units = "in", res = 300)
+par(mar=c(1,2,1,4))
 library(autoimage)
 
 legend.scale(c(-2,2), col = colorRampPalette(c("blue", "white", "red"))(n=51), horizontal = F,

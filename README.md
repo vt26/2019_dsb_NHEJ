@@ -14,6 +14,9 @@ This code is used to profile what an idealized nucleosome looks like in a given 
 dot_plots_2d_cross_correlation_pictographs.R
 This code will plot both the dot plots (along with 2d cross correlation trace) and pictographs summarize the chromatin dot plot. Be sure to adjust the start and end coordinates if you want to look at another locus and to point this code to use sacCer3 files instead of chr2 files if you want to look at other chromosomes other than the chr2 with the HOCS inserted. This code also provides quantification/counts of fragments of the 1L, 1L-2L linker, and 3R regions. These counts are used to generate the kinetics plots.
 
+t-test_kinetics.R
+This code calculates the nucleosomal read counts for WT and MRE11 mutant strains (separates duplicates) for each time point. Then a a one-tailed t-test is performed for the data at each time point and a p-value is returned/printed.
+
 subnuc_zoom_footprint.R
 This code generates a zoomed in dot plot (without a 2d cross correlation trace) of the region immediately around the HO cut site near PHO5. This is supplemental igure 6 of the paper.
 
